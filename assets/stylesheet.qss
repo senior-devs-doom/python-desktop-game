@@ -1,0 +1,32 @@
+    MainWindow {
+        background-image: url("assets/background.jpg"); 
+    }
+    *{
+        margin:0;
+        padding:0;
+        color:#ffffff;
+        background: transparent;
+        font-family:Vermin Vibes 1989;
+    }
+    #player{
+        border-image: url('assets/player1.svg');
+        background-repeat: no-repeat;
+    }
+    #score{
+        font-size:30px;
+        text-align:center;
+    }
+    #timeLabel{
+        font-size:60px;
+        text-align:center;
+    }
+    #gameover{
+        font-size:45px;
+        text-align:center;    
+    }
+    #valLabel {
+        font-size:25px;
+    }
+    #livesLabel {
+        font-size:30px;
+    }
