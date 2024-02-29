@@ -31,7 +31,7 @@ Hold Left Mouse Button - Shooting
 
 ENEMIES :
 
-	Crabbo - bruiser
+  Crabbo - bruiser
 white - moves normally
 green - after crossing player on Xaxis moves to him on Y axis 
 yellow - follows the player
@@ -42,7 +42,7 @@ green - shoots in cone of 3
 yellow - shoots bullets that bounce
 red - shoots a gatling gun spread at player
 
-	octopus - mage
+  octopus - mage
 white - shoots 3 bullets that zigzag
 green - shoots unaimed all around it at once
 yellow - shoots a circle of bullets
