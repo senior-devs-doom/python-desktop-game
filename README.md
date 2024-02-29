@@ -41,7 +41,7 @@ yellow - follows the player
 
 red - charges into player, acceleration and following player by angle
 
- squid - ranger
+  Squid - ranger
 
 white - shoots at player periodically
 
@@ -51,17 +51,17 @@ yellow - shoots bullets that bounce
 
 red - shoots a gatling gun spread at player
 
-  octopus - mage
+  Octopus - mage
 
-white - shoots 3 bullets that zigzag
+white - shoots few bullets that zigzag
 
 green - shoots unaimed all around it at once
 
-yellow - shoots a circle of bullets
+yellow - shoots hopping bullets(it was supposed to be circle but midway into implementing it looked cooler so I left it)
 
-red - after a second of tracking shoots laser
+red - after a second of tracking shoots blocking wall
 
-Reds are three in a hundread
+Reds chances of appearing are 3 in a hundred, kill em fast
 
 
 
