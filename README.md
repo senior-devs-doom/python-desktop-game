@@ -2,12 +2,12 @@
 
 A straightforward 2D desktop game of bullet hell genre. Player dodges 12 diffrent aliens and their projectiles trying to survive and wrap up highest score.
 
-Tech info:
-Game is made in python using pyqt library, which itself is binding library for QT. It's an uni project for python course, so my language choice was quite limited, additionally QT was designed with static forms in mind so after finishing the project I can confidently say that it wasn't the right choice for a somewhat dynamic game. Project clocks in at around 1000 lines of code with 5 classes, instead of using events I opted to create interval refreshing at modifiable rate to mirror usual game logic, tying the game to ticks/frames per second instead. Game size is unoptimized, and I didn't spend any time modifying default processing power. I made limiting myself to one thread 
+TECH INFO :
+Game is made in python using pyqt library, which itself is binding library for QT. It's an uni project for python course, so my language choice was quite limited, additionally QT was designed with static forms in mind so after finishing the project I can confidently say that it wasn't the right choice for a somewhat dynamic game. Project clocks in at around 1000 lines of code with 5 classes, instead of using events I opted to create interval refreshing at modifiable rate to mirror usual game logic, tying the game to ticks/frames per second. Game size is unoptimized, and I didn't spend any time modifying default processor settings. I'm satisfied with game running smoothly, at 60 refreshes per second, even with default pyQT configuration. That being said without usual game engine optimizations game will become processor intensive eventually, thou making it that far is quite difficult. Game has 12 unique enemies, most shooting varied projectiles, progressively appearing as player survives longer and longer, additonally weighted spawns allow for rarer, higher threat enemies which player has to prioritize. Randomized enemy spawn and attacks create dynamic challanges which is underexplored area of bullet hell games, design wise player.
 
 DOWNLOAD LINK : https://github.com/senior-devs-doom/python-desktop-game/releases/download/game/20.seconds.2.die.rar
 
-Settings:
+SETTINGS :
 
 Threat - player score, incrementing with every enemy kill and each passed wave. Higher threat results in more enemies on screen.
 
@@ -19,7 +19,7 @@ Lives - Health, how much hit one can take before dying. There is no life 0
 
 Press enter to begin game.
 
-Controls:
+CONTROLS :
 
 WASD/Arrow Keys - Directional movement
 
@@ -28,4 +28,27 @@ Mouse Position - Shooting direction
 Hold Left Mouse Button - Shooting
 
 !! Note: You need to hold mouse button to shoot instead of clicking it. WHEN YOU RELEASE THE BUTTON YOU NEED TO WAIT A WHILE BEFORE SHOOTING AGAIN. This is a quirk of 'mouse' library, I didn't fix it cause I think it adds flavor  ¯\_(ツ) !!
+
+ENEMIES :
+
+	Crabbo - bruiser
+white - moves normally
+green - after crossing player on Xaxis moves to him on Y axis 
+yellow - follows the player
+red - charges into player, acceleration and following player by angle
+	squid - ranger
+white - shoots at player periodically
+green - shoots in cone of 3
+yellow - shoots bullets that bounce
+red - shoots a gatling gun spread at player
+
+	octopus - mage
+white - shoots 3 bullets that zigzag
+green - shoots unaimed all around it at once
+yellow - shoots a circle of bullets
+red - after a second of tracking shoots laser
+
+Reds are three in a hundread
+
+
 
