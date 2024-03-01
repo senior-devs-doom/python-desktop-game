@@ -2,7 +2,7 @@
 
 A straightforward 2D desktop game of bullet hell genre. Player dodges 12 diffrent aliens and their projectiles trying to survive and wrap up highest score.
 
-<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<img src="[ht://camo.githubusercontent.com/...tps](https://www.lectura-specs.pl/models/renamed/orig/wozki-widlowe-z-silnikiem-wysokopreznym-dfg-316-jungheinrich(1).jpg)" width="200" height="400" />
 
 TECH INFO :
 Game is made in python using pyqt library, which itself is binding library for QT. It's an uni project for python course, so my language choice was quite limited, additionally QT was designed with static forms in mind so after finishing the project I can confidently say that it wasn't the right choice for a somewhat dynamic game. Project clocks in at around 1000 lines of code with 5 classes, instead of using events I opted to create interval refreshing at modifiable rate to mirror usual game logic, tying the game to ticks/frames per second. Game size is unoptimized, and I didn't spend any time modifying default processor settings. I'm satisfied with game running smoothly, at 60 refreshes per second, even with default pyQT configuration. That being said without usual game engine optimizations game will become processor intensive eventually, thou making it that far is quite difficult. Game has 12 unique enemies, most shooting varied projectiles, progressively appearing as player survives longer and longer, additonally weighted spawns allow for rarer, higher threat enemies which player has to prioritize. Randomized enemy spawn and attacks create dynamic challanges which is underexplored area of bullet hell games, design wise player.
